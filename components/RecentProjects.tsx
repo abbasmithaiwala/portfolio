@@ -21,7 +21,7 @@ const RecentProjects = () => {
                             <img
                                 src={img} 
                                 alt={title}
-                                className='z-10 absolute bottom-0'/>
+                                className='z-10 absolute bottom-50 rounded-lg items-center justify-center'/>
                         </div>
                         <h1 className='font-bold lg:text-2xl md:text-xl text-base line-clamp-1'>
                             {title}
@@ -37,11 +37,13 @@ const RecentProjects = () => {
                                     </div>
                                 ))}
                             </div>
-
+                            
+                            <a href={link} target='_blank'>
                             <div className='flex justify-center items-center'>
                                 <p className='flex lg:text-xl md:text-xs text-sm text-purple'>Check Live Site</p>
                                 <FaLocationArrow className="ms-3" color="#CBACF9"/>
                             </div>
+                            </a>
                         </div>
                     </PinContainer>
                 </div>
