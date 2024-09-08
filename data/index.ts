@@ -49,7 +49,7 @@ export const navItems = [
   
     {
       id: 5,
-      title: "Currently learning ML models",
+      title: "Currently working on Natural Language Processing",
       description: "The Inside Scoop",
       className: "md:col-span-3 md:row-span-2",
       imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -72,6 +72,38 @@ export const navItems = [
   export const projects = [
     {
       id: 1,
+      title: "Movie Recommender System",
+      des: "The system employs content-based algorithms to provide tailored recommendations across various genres cinema.",
+      img: "/Movie-Recommender-System-3.png",
+      iconLists: ["/python-5.svg", "/numpy.svg", "/pandas.svg", "/scikit-learn.svg", "/streamlit.svg"],
+      link: "https://github.com/abbas-08",
+    },
+    {
+      id: 2,
+      title: "Handwritten Digit Recognition",
+      des: "A machine learning project that uses Convolutional Neural Networks (CNNs) to accurately classify handwritten digits.",
+      img: "/Handwritten-Digit-Recognition.png",
+      iconLists: ["/python-5.svg", "/numpy.svg", "/pandas.svg", "/tensorflow.svg", "/keras.svg", "/pygame.svg"],
+      link: "https://github.com/abbas-08",
+    },
+    {
+      id: 3,
+      title: "Home Price Prediction",
+      des: "A data-driven real estate valuation tool that estimates residential property prices based on various features such as location, size, and amenities.",
+      img: "/home-price-prediction.jpeg",
+      iconLists: ["/python-5.svg", "/numpy.svg", "/pandas.svg", "/scikit-learn.svg"],
+      link: "https://github.com/abbas-08",
+    },
+    {
+      id: 4,
+      title: "Air Canvas using Python",
+      des: "An interactive computer vision application that allows users to draw in the air using hand gestures captured by a webcam.",
+      img: "/air-canvas.png",
+      iconLists: ["/python-5.svg", "/numpy.svg", "/opencv.svg"],
+      link: "https://github.com/abbas-08",
+    },
+    {
+      id: 5,
       title: "Greeny - Responsive and Dynamic Web Application",
       des: "A user-friendly platform to promote environmental sustainability with the use of Django to ensure robustness.",
       img: "/greeny3.png",
@@ -79,7 +111,7 @@ export const navItems = [
       link: "https://github.com/abbas-08",
     },
     {
-      id: 2,
+      id: 6,
       title: "AB’s CookBook – Dynamic Recipes Website",
       des: "Created a dynamic recipes website using HTML, CSS, and JavaScript with the power of Spoonacular API",
       img: "/Cookbook.png",
@@ -87,7 +119,7 @@ export const navItems = [
       link: "https://github.com/abbas-08",
     },
     {
-      id: 3,
+      id: 7,
       title: "Amazon Web Scraping Project",
       des: "Built a web scraping tool to extract product data from Amazon.Implemented data parsing and storage techniques to handle large datasets.",
       img: "/scraping.png",
@@ -95,7 +127,7 @@ export const navItems = [
       link: "https://github.com/abbas-08",
     },
     {
-      id: 4,
+      id: 8,
       title: "Home Automation System using IoT",
       des: "Developed a home automation system utilizing Internet of Things (IoT) technology.Ensured security and efficiency in the system's operations.",
       img: "/automation.png",
@@ -168,15 +200,15 @@ export const navItems = [
   export const workExperience = [
     {
       id: 1,
-      title: "Web Developer Intern",
-      desc: "Played a key role in developing a responsive and dynamic web application.",
+      title: "Machine Learning Project Lead",
+      desc: "Led the development of a machine learning model to process data and predict home prices. ",
       className: "md:col-span-2",
       thumbnail: "/exp1.svg",
     },
     {
       id: 2,
-      title: "Data Scraping Project Lead",
-      desc: "Led the development of a web scraping tool to extract and analyze product data from Amazon. ",
+      title: "Web Developer Intern",
+      desc: "Played a key role in developing a responsive and dynamic web application.",
       className: "md:col-span-2", // change to md:col-span-2
       thumbnail: "/exp2.svg",
     },
