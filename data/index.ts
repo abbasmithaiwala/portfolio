@@ -76,7 +76,7 @@ export const navItems = [
       des: "The system employs content-based algorithms to provide tailored recommendations across various genres cinema.",
       img: "/Movie-Recommender-System-3.png",
       iconLists: ["/python-5.svg", "/numpy.svg", "/pandas.svg", "/scikit-learn.svg", "/streamlit.svg"],
-      link: "https://github.com/abbas-08",
+      link: "https://github.com/abbasmithaiwala/",
     },
     {
       id: 2,
@@ -84,7 +84,7 @@ export const navItems = [
       des: "A machine learning project that uses Convolutional Neural Networks (CNNs) to accurately classify handwritten digits.",
       img: "/Handwritten-Digit-Recognition.png",
       iconLists: ["/python-5.svg", "/numpy.svg", "/pandas.svg", "/tensorflow.svg", "/keras.svg", "/pygame.svg"],
-      link: "https://github.com/abbas-08",
+      link: "https://github.com/abbasmithaiwala/",
     },
     {
       id: 3,
@@ -92,7 +92,7 @@ export const navItems = [
       des: "A data-driven real estate valuation tool that estimates residential property prices based on various features such as location, size, and amenities.",
       img: "/home-price-prediction.jpeg",
       iconLists: ["/python-5.svg", "/numpy.svg", "/pandas.svg", "/scikit-learn.svg"],
-      link: "https://github.com/abbas-08",
+      link: "https://github.com/abbasmithaiwala/",
     },
     {
       id: 4,
@@ -100,7 +100,7 @@ export const navItems = [
       des: "An interactive computer vision application that allows users to draw in the air using hand gestures captured by a webcam.",
       img: "/air-canvas.png",
       iconLists: ["/python-5.svg", "/numpy.svg", "/opencv.svg"],
-      link: "https://github.com/abbas-08",
+      link: "https://github.com/abbasmithaiwala/",
     },
     {
       id: 5,
@@ -108,7 +108,7 @@ export const navItems = [
       des: "A user-friendly platform to promote environmental sustainability with the use of Django to ensure robustness.",
       img: "/greeny3.png",
       iconLists: ["/html-1.svg", "/css-3.svg", "/javascript-1.svg", "/python-5.svg", "/django.svg"],
-      link: "https://github.com/abbas-08",
+      link: "https://github.com/abbasmithaiwala/",
     },
     {
       id: 6,
@@ -116,7 +116,7 @@ export const navItems = [
       des: "Created a dynamic recipes website using HTML, CSS, and JavaScript with the power of Spoonacular API",
       img: "/Cookbook.png",
       iconLists: ["/html-1.svg", "/css-3.svg", "/javascript-1.svg"],
-      link: "https://github.com/abbas-08",
+      link: "https://github.com/abbasmithaiwala/",
     },
     {
       id: 7,
@@ -124,7 +124,7 @@ export const navItems = [
       des: "Built a web scraping tool to extract product data from Amazon.Implemented data parsing and storage techniques to handle large datasets.",
       img: "/scraping.png",
       iconLists: ["/python-5.svg", "/selenium-1.svg"],
-      link: "https://github.com/abbas-08",
+      link: "https://github.com/abbasmithaiwala/",
     },
     {
       id: 8,
@@ -132,7 +132,7 @@ export const navItems = [
       des: "Developed a home automation system utilizing Internet of Things (IoT) technology.Ensured security and efficiency in the system's operations.",
       img: "/automation.png",
       iconLists: ["/c++.svg"],
-      link: "https://github.com/abbas-08",
+      link: "https://github.com/abbasmithaiwala/",
     },
   ];
   
