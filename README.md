@@ -1,36 +1,59 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# My Portfolio
 
-## Getting Started
+This is my personal portfolio website showcasing my skills, projects, and experiences. The website is built using modern web technologies such as **Next.js**, **Three.js**, and **Tailwind CSS**. The design incorporates dynamic and interactive UI components to create a seamless user experience.
 
-First, run the development server:
+## 🚀 Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Spotlight Effect**: Interactive lighting that follows the user's cursor, enhancing the 3D elements on the page.
+- **Bentogrid Layout**: A unique grid layout for better visual organization of content.
+- **3D Pin Globe**: Displays my GitHub activity on an interactive 3D globe.
+- **Infinite Moving Cards**: A carousel of cards that dynamically moves and loops.
+- **Background Gradient**: Eye-catching gradients that change based on the section of the website.
+- **Magic Button**: A button that changes appearance and interaction on hover.
+- **Moving Borders**: Interactive border animations when hovering over certain sections.
+- **Text Generate Effect**: Dynamic text that is generated or revealed letter by letter.
+- **Canvas Reveal Effect**: A 3D canvas animation that is revealed on scrolling.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠️ Technologies Used
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Next.js**: For server-side rendering and static site generation.
+- **Three.js**: For 3D rendering and animations.
+- **Tailwind CSS**: For utility-first CSS styling.
+- **Framer Motion**: For smooth animations.
+- **GitHub API**: To fetch and display dynamic content related to GitHub activity.
+  
+## 💻 Installation & Setup
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+To get started locally, follow these instructions:
 
-## Learn More
+1. Clone the repository:
 
-To learn more about Next.js, take a look at the following resources:
+   ```bash
+   git clone https://github.com/abbasmithaiwala/portfolio.git
+   ```
+2. Navigate to the project directory:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+   ```bash
+   cd portfolio
+   ```
+3. Install Dependencies:
+   
+   ```bash
+   npm install
+   ```
+   
+4. Run the development server:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+   ```bash
+   npm run dev
+   ```
+   
+5. Open http://localhost:3000 in your browser to view the project.
 
-## Deploy on Vercel
+## 🌐 Live Demo
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+You can check out the live version of the portfolio [here](abbasmithaiwala.netlify.app).
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## 📝 License
+
+This project is open-source and available under the [MIT License](LICENSE).
