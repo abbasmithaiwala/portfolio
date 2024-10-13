@@ -232,7 +232,7 @@ export const navItems = [
     {
       id: 1,
       img: "/git.svg",
-      addr: "https://github.com/abbas-08"
+      addr: "https://github.com/abbasmithaiwala/"
     },
     {
       id: 2,
