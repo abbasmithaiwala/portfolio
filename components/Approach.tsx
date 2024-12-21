@@ -44,7 +44,7 @@ const Approach = () => {
             icon={<AceternityIcon order="Phase 3"/>}
             description="This is where the magic happens! Based on the approved design, 
           I'll translate everything into functional code, building your website
-          from the ground up.">
+          from the ground up. ">
                 <CanvasRevealEffect
                     animationSpeed={3}
                     containerClassName="bg-sky-600"
