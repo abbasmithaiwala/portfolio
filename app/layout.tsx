@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "./provider";
 import { GoogleAnalytics } from '@next/third-parties/google'
+import Script from "next/script";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -29,8 +30,14 @@ export default function RootLayout({
         {children}
     </ThemeProvider>
 
-    <script src="https://cdn.botpress.cloud/webchat/v2.2/inject.js"></script>
-    <script src="https://files.bpcontent.cloud/2024/12/21/19/20241221192809-RY6ROYCO.js"></script>
+    <Script
+        src="https://cdn.botpress.cloud/webchat/v2.2/inject.js"
+        strategy="afterInteractive"
+    />
+    <Script
+        src="https://files.bpcontent.cloud/2024/12/21/19/20241221192809-RY6ROYCO.js"
+        strategy="afterInteractive"
+    />
 
     </body>
     </html>
