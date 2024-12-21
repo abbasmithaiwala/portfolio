@@ -124,8 +124,7 @@ export const navItems = [
     {
       quote:"The problem with the world is that the intelligent people are full of doubts, while the stupid ones are full of confidence.",
       name: "Charles Bukowski",
-      title: "",
-      img: "/bukowski.jpeg"
+      title: ""
     },
     {
       quote:"I dream of a quiet man who explains nothing and defends nothing, but only knows where the rarest wildflowers are blooming, and who goes, and finds that he is smiling not by his own will.",
