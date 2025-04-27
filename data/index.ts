@@ -184,31 +184,31 @@ export const navItems = [
   export const workExperience = [
     {
       id: 1,
-      title: "Machine Learning Project Lead",
-      desc: "Led the development of a machine learning model to process data and predict home prices. ",
+      title: "Full Stack Web Developer",
+      desc: "Developed and maintained multiple websites using technologies like React, Next.js, FastAPI, PostgreSQL, etc.",
       className: "md:col-span-2",
-      thumbnail: "/exp1.svg",
+      thumbnail: "/exp4.svg",
     },
     {
       id: 2,
-      title: "Web Developer Intern",
-      desc: "Played a key role in developing a responsive and dynamic web application.",
-      className: "md:col-span-2", // change to md:col-span-2
+      title: "AI Engineer",
+      desc: "Led the development of an AI Chatbot to process user queries and provide accurate responses by understanding user context and intent. ",
+      className: "md:col-span-2",
       thumbnail: "/exp2.svg",
     },
     {
       id: 3,
       title: "IOT Developer",
-      desc: "Designed and developed a mobile interface for a home automation system, integrating IoT devices for remote control and monitoring.",
+      desc: "Designed and developed a home automation system, integrating IoT devices for remote control and monitoring using mobile interface.",
       className: "md:col-span-2", // change to md:col-span-2
       thumbnail: "/exp3.svg",
     },
     {
       id: 4,
-      title: "Dynamic Website Frontend Developer",
-      desc: "Developed and maintained a dynamic recipes website that utilized APIs to fetch and display recipes.",
-      className: "md:col-span-2",
-      thumbnail: "/exp4.svg",
+      title: "Frontend Developer Intern",
+      desc: "Played a key role in developing multiple responsive and dynamic web applications.",
+      className: "md:col-span-2", // change to md:col-span-2
+      thumbnail: "/exp1.svg",
     },
   ];
   
