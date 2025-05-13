@@ -228,4 +228,9 @@ export const navItems = [
       img: "/link.svg",
       addr: "https://www.linkedin.com/in/abbas-mithaiwala/"
     },
+    {
+      id: 4,
+      img: "/twitter.svg",
+      addr: "https://x.com/"
+    }
   ];
